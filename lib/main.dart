@@ -8,31 +8,31 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              Container(
-                height: 100.0,
-                width: 100.0,
+            child: Column(
+          children: <Widget>[
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage('images/Mudez.jpg'),
+            ),
+            Text(
+              'Mudezz Habib',
+              style: TextStyle(
+                fontFamily: 'Pacifico',
+                fontSize: 40.0,
                 color: Colors.white,
-                child: Text('Container 1'),
+                fontWeight: FontWeight.bold,
               ),
-              SizedBox(height: 20.0),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.blue,
-                child: Text('Container 2'),
-              ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.red,
-                child: Text('Container 3'),
-              ),
-            ],
-          ),
-        ),
+            ),
+            Text('FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
+                ))
+          ],
+        )),
       ),
     ),
   );
