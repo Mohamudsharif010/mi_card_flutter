@@ -71,7 +71,7 @@ void main() {
                     width: 10.0,
                   ),
                   Text(
-                    'mudez@gmail.com',
+                    'mudez@hotmail.com',
                     style: TextStyle(
                       color: Colors.teal.shade900,
                       fontFamily: 'Source Sans Pro',
